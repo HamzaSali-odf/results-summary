@@ -21,6 +21,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 10px;
+  border-radius: 2em;
+  z-index: -1;
+  background-color: white;
 }
 
 .left-content {
@@ -83,6 +87,9 @@ body {
   text-align: left;
   font-family: "Hanken Grotesk", sans-serif;
   padding-left: 2em;
+  background-color: white;
+z-index: -1;  
+border-radius: 2em;
 }
 .right-content li{
   margin-bottom: 2em;
